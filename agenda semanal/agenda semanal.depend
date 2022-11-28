@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1669605568 source:c:\users\win10\downloads\unvali\agenda semanal\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<cctype>
+	<string>
+
