@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1669605889 source:c:\users\win10\downloads\unvali\acervo virtual sem structs\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<cctype>
+
