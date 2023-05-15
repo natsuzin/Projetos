@@ -64,17 +64,41 @@ string verificaSeDiferenteDeLetra(string aux)
     for(unsigned int i=0; i<aux.size(); i++)
     {
         palavra = palavra + aux.at(i);
-        if(palavra == "ZERA") return palavra;
-        if(palavra == "SOMA") return palavra;
-        if(palavra == "SUBTRAI") return palavra;
-        if(palavra == "MULTIPLICA") return palavra;
-        if(palavra == "DIVIDE") return palavra;
+        if(palavra == "ZERA")return palavra;
+        if(palavra == "SOMA")
+        {
+            i++;
+            if(aux.at(i)!='(')
+               throw "COMANDO INVALIDO.";
+            return palavra;
+        }
+        if(palavra == "SUBTRAI")
+        {
+            i++;
+            if(aux.at(i)!='(')
+               throw "COMANDO INVALIDO.";
+            return palavra;
+        }
+        if(palavra == "MULTIPLICA")
+        {
+            i++;
+            if(aux.at(i)!='(')
+               throw "COMANDO INVALIDO.";
+            return palavra;
+        }
+        if(palavra == "DIVIDE")
+        {
+            i++;
+            if(aux.at(i)!='(')
+               throw "COMANDO INVALIDO.";
+            return palavra;
+        }
         if(palavra == "PARCELAS") return palavra;
         if(palavra == "IGUAL") return palavra;
         if(palavra == "FIM") return palavra;
-        if(!isalpha(aux.at(i))) throw "COMANDO INVÁLIDO.";
+        if(!isalpha(aux.at(i))) throw "COMANDO INVALIDO.";
     }
-    throw "COMANDO INVÁLIDO.";
+    throw "COMANDO INVALIDO.";
 }
 
 float converteStringParaFloat(string aux)
