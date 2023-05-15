@@ -6,7 +6,8 @@
 using namespace std;
 
 template <typename T>
-struct Nodo {
+struct Nodo
+{
     T elemento;
     Nodo<T>* proximo;
     Nodo<T>* anterior;
@@ -50,6 +51,7 @@ bool existeElemento(Pilha<T> pilha, T elemento)
             return true;
         p = p->proximo;
         q = q->anterior;
+        if(p == q) break;
     }
     return false;
 }
@@ -64,6 +66,23 @@ template<typename T>
 T topo(Pilha<T> pilha)
 {
     return pilha.inicio->elemento;
+}
+
+template<typename T>
+T umElemento(Pilha<T> pilha, int posicao)
+{
+    if(posicao < 1 || posicao > pilha.cardinalidade)
+    {
+        throw "POSICAO INVALIDA";
+    }
+    int contador = 1;
+    Nodo<T>* p = pilha.inicio;
+    while (contador < posicao)
+    {
+        contador++;
+        p = p->proximo;
+    }
+    return p->elemento;
 }
 
 template<typename T>
@@ -93,7 +112,8 @@ void insere(Pilha<T> &pilha, T elemento)
     q->elemento = elemento;
     q->proximo = NULL;
     q->anterior = NULL;
-    if (pilha.inicio == NULL){
+    if (pilha.inicio == NULL)
+    {
         pilha.inicio = q;
         pilha.fim = q;
     }
