@@ -72,8 +72,8 @@ void gravaNoArquivo(ofstream &arqResultados, int quantidade, float comp, float t
         arqResultados << "quickSort           " << quantidade << "                    ";
     if(i==4)
         arqResultados << "shellSort           " << quantidade << "                    ";
-    arqResultados << fixed << setprecision(2) << comp << "                 ";
-    arqResultados << fixed << setprecision(2) << troca;
+    arqResultados << fixed << setprecision(2) << comp << "%";
+    arqResultados << fixed << setprecision(2) << troca << "%";
     arqResultados << endl;
 }
 
