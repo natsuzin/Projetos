@@ -1,0 +1,13 @@
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            200                    22.05                 8.27
+mergeSort           200                    6.58                 17.37
+quickSort           200                    100.00                 100.00
+shellSort           200                    0.00                 6.77
+
+
+heapSort            3000                    2.11                 0.81
+mergeSort           3000                    0.61                 1.80
+quickSort           3000                    100.00                 100.00
+shellSort           3000                    0.00                 0.78
+

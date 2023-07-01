@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1688229750 source:c:\users\win10\desktop\métodos de ordenação utilizando arquivos\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<random>
+	"heapsort.h"
+	"shellsort.h"
+	"mergesort.h"
+	"quicksort.h"
+	"functions.h"
+
+1688230001 c:\users\win10\desktop\métodos de ordenação utilizando arquivos\heapsort.h
+	"functions.h"
+	<iostream>
+
+1688229731 c:\users\win10\desktop\métodos de ordenação utilizando arquivos\functions.h
+	<iostream>
+
+1688229952 c:\users\win10\desktop\métodos de ordenação utilizando arquivos\shellsort.h
+	"functions.h"
+	<iostream>
+
+1688229850 c:\users\win10\desktop\métodos de ordenação utilizando arquivos\mergesort.h
+	"functions.h"
+	<iostream>
+
+1688229779 c:\users\win10\desktop\métodos de ordenação utilizando arquivos\quicksort.h
+	"functions.h"
+	<iostream>
+

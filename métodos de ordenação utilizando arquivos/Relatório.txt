@@ -1,0 +1,206 @@
+RELATORIO DE RESULTADOS (Ordem Crescente)
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            1                    100.00%               100.00%
+mergeSort           1                    20.00%                0.00%
+quickSort           1                    20.00%                0.00%
+shellSort           1                    0.00%                 0.00%
+
+Em relação a quantidade de 1 dado, o metodo mais eficaz em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort/QuickSort/MergeSort; 
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            5                    100.00%                45.83%
+mergeSort           5                    44.62%                 100.00%
+quickSort           5                    44.62%                 58.33%
+shellSort           5                    12.86%                 29.17%
+
+Em relação a quantidade de 5 dados, os metodos mais eficazes em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort;
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            10                    100.00%                47.06%
+mergeSort           10                    38.38%                 100.00%
+quickSort           10                    47.03%                 60.29%
+shellSort           10                    14.29%                 32.35%
+
+Em relação a quantidade de 10 dados, o metodo mais eficaz em relação a comparações é o ShellSort , agora em relação as trocas 
+o mais eficaz é o ShellSort;
+ 
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+heapSort            100                    34.79%                12.78%
+mergeSort           100                    12.61%                31.82%
+quickSort           100                    100.00%               100.00%
+shellSort           100                    6.34%                 11.91%
+
+Em relação a quantidade de 100 dados, o metodo mais eficaz em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort; 
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            500                    10.70%                4.05%
+mergeSort           500                    3.03%                 8.40%
+quickSort           500                    100.00%               100.00%
+shellSort           500                    1.63%                 3.28%
+
+Em relação a quantidade de 500 dados, o metodo mais eficaz em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort; 
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            1000                    5.88%                 2.24%
+mergeSort           1000                    1.61%                 4.61%
+quickSort           1000                    100.00%               100.00%
+shellSort           1000                    0.92%                 1.85%
+
+Em relação a quantidade de 1000 dados, o metodo mais eficaz em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort; 
+
+Em ordem crescente o melhor para comparações é o metodo ShellSort e o melhor para trocas tambem é o metodo ShellSort, tivemos algumas vezes
+os mesmos resultados de alguns, com o numero de dados menor percebemos que o metodo heapSort piora e o metodo quickSort vai melhorando;
+
+|----------------------------------------------------------------------------------------------------------------------------------------------|
+
+RELATORIO DE RESULTADOS (Ordem decrescente)
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            1                    100.00%               100.00%
+mergeSort           1                    20.00%                0.00%
+quickSort           1                    20.00%                0.00%
+shellSort           1                    0.00%                 0.00%
+
+Em relação a quantidade de 1 dado, o metodo mais eficaz em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort/QuickSort/MergeSort; 
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            5                    100.00%                 37.50%
+mergeSort           5                    52.73%                 100.00%
+quickSort           5                    38.18%                 37.50%
+shellSort           5                    16.36%                 29.17%
+
+Em relação a quantidade de 5 dados, os metodos mais eficazes em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort;
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            10                    100.00%                 32.35%
+mergeSort           10                    52.59%                 100.00%
+quickSort           10                    70.37%                 66.18%
+shellSort           10                    18.52%                 32.35%
+
+Em relação a quantidade de 10 dados, o metodo mais eficaz em relação a comparações é o ShellSort , agora em relação as trocas 
+o mais eficaz é o ShellSort/HeapSort;
+ 
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            100                    36.95%                13.60%
+mergeSort           100                    13.32%                33.67%
+quickSort           100                    100.00%               100.00%
+shellSort           100                    6.34%                 12.60%
+
+Em relação a quantidade de 100 dados, o metodo mais eficaz em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort; 
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            500                    9.45%                 3.55%
+mergeSort           500                    3.01%                 8.34%
+quickSort           500                    100.00%               100.00%
+shellSort           500                    1.63%                 3.26%
+
+Em relação a quantidade de 500 dados, o metodo mais eficaz em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort; 
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            1000                    5.27%                 2.00%
+mergeSort           1000                    1.60%                 4.58%
+quickSort           1000                    100.00%               100.00%
+shellSort           1000                    0.92%                 1.84%
+
+Em relação a quantidade de 1000 dados, o metodo mais eficaz em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort; 
+
+Em ordem decrescente o melhor para comparações é o metodo ShellSort/HeapSort e o melhor para trocas tambem é o metodo ShellSort/HeapSort, tivemos algumas vezes
+os mesmos resultados de alguns, com o numero de dados menor percebemos que o metodo heapSort piora e o metodo quickSort vai melhorando;
+
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+RELATORIO DE RESULTADOS (Ordem decrescente)
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            1                    100.00%                 100.00%
+mergeSort           1                    20.00%                 0.00%
+quickSort           1                    20.00%                 0.00%
+shellSort           1                    0.00%                 0.00%
+
+Em relação a quantidade de 1 dado, o metodo mais eficaz em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort/QuickSort/MergeSort; 
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            5                    100.00%                 41.67%
+mergeSort           5                    48.33%                 100.00%
+quickSort           5                    48.33%                 58.33%
+shellSort           5                    15.00%                 29.17%
+
+Em relação a quantidade de 5 dados, os metodos mais eficazes em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort;
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            10                    100.00%                 42.65%
+mergeSort           10                    41.76%                 100.00%
+quickSort           10                    64.12%                 79.41%
+shellSort           10                    14.71%                 32.35%
+
+Em relação a quantidade de 10 dados, o metodo mais eficaz em relação a comparações é o ShellSort , agora em relação as trocas 
+o mais eficaz é o ShellSort/HeapSort;
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            100                    31.49%                 11.61%
+mergeSort           100                    10.59%                 26.62%
+quickSort           100                    100.00%                100.00%
+shellSort           100                    5.04%                  9.96%
+
+Em relação a quantidade de 100 dados, o metodo mais eficaz em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort; 
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            500                    8.71%                 3.28%
+mergeSort           500                    2.64%                 7.30%
+quickSort           500                    100.00%               100.00%
+shellSort           500                    1.43%                 2.85%
+
+Em relação a quantidade de 500 dados, o metodo mais eficaz em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort; 
+
+Nome       |     Quantidade      |     Comparacoes     |        Trocas
+
+heapSort            1000                    4.84%                 1.84%
+mergeSort           1000                    1.41%                 4.03%
+quickSort           1000                    100.00%               100.00%
+shellSort           1000                    0.81%                 1.62%
+
+Em relação a quantidade de 1000 dados, o metodo mais eficaz em relação a comparações é o ShellSort, agora em relação as trocas 
+o mais eficaz é o ShellSort; 
+
+Em ordem aleatoria o melhor para comparações é o metodo ShellSort/HeapSort/MergeSort e o melhor para trocas tambem é o metodo ShellSort/HeapSort, tivemos 
+algumas vezes os mesmos resultados de alguns, com o numero de dados menor percebemos que o metodo heapSort piora e o metodo quickSort vai melhorando;
+
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+Conclusão em todos os testes que realizamos os metodos de destaque são o ShellSort e o MergeSort agora quando nois temos poucos dados o HeapSort perde um pouco 
+sua eficiencia e o QuickSort melhora agora quanto mais dados o QuickSort piora e o HeapSort melhora, o MergeSort esta sempre na media em todos os testes;
+
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
